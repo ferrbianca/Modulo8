@@ -12,6 +12,6 @@ Então deve ser direcionado a tela de ckeckout
 
 Cénario:Usuário inexistente
 Dado que eu acesse a página de autenticação do portal EBAC
-Quando eu sigitar o usuário: "aaaxxx@ebac.com.br" 
+Quando eu digitar o usuário: "aaaxxx@ebac.com.br" 
 E a senha "senha@123"
 Então deve ser exibido a mensagem de alerta: "Usuário inexistente"
