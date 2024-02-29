@@ -6,20 +6,18 @@ Quero configurar meu produto de acordo com meu tamanho e gosto
 E escolher a quantidade
 Para depois inserir no carrinho
 
-CÈnario:SeleÁıes obrigatÛrias
-Quando eu selecionar um produto
-Ent„o deve exibir para selecionar a cor, tamanho 
-E a quantidade
-Ent„o depois de selecionado exibir a mensagem "Adicionado ao carrinho com sucesso"
+C√©nario:Sele√ß√µes obrigat√≥rias
+Dado que eu selecione um produto
+Quando eu selecionar, cor, quantidade e tamanho
+Ent√£o exibir a mensagem "Adicionado ao carrinho com sucesso"
 
-CÈnario: Permiss„o de venda
-Quando eu adicionar um produto ao carrinho
-Ent„o deve exibir para selecionar a quantidade desejada
-E se a quantidade for maior que 10 produtor
-Ent„o exibir a mensagem "Quantidade inv·lida. Limite m·ximo por carrinho de 10 produtos"
+C√©nario: Permiss√£o de quantidade no carrinho
+Dado  que eu esteja na tela do produto
+Quando adicionar uma quantidade maior que 10
+Ent√£o exibir a mensagem "Quantidade inv√°lida. Limite m√°ximo por carrinho de 10 produtos"
 
-CÈnario: Limpar carrinho
-Quando eu acessar o carrinho
-E clicar em "Limpar" 
-Ent„o deve ser excluÌdos todos os intens adicionados 
+C√©nario: Limpar carrinho
+Daodo que eu acesse o carrinho
+Quando clicar em "Limpar" 
+Ent√£o todos os itens adicionados devem ser exclu√≠dos 
 
